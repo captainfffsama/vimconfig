@@ -1,0 +1,1292 @@
+# 这个 viminfo 文件是由 Vim 8.2 所产生。
+# 如果想要自行修改请特别小心！
+
+# Viminfo version
+|1,4
+
+# 文件被写的时候 ‘encoding’ 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 上个 Search 图案：
+~MSle0~/md5sum
+
+# 上个 替换 Search 图案：
+~MSle0&Share/gpu-server/data/game/729_dky
+
+# 最后替换的字符串
+$temp_space/pic
+
+# 命令行 历史记录 (从新到旧)：
+:q!
+|2,0,1600074708,,"q!"
+:q
+|2,0,1600074705,,"q"
+:CocList
+|2,0,1600072216,,"CocList"
+:CocConfig
+|2,0,1600071977,,"CocConfig"
+:Q
+|2,0,1600071940,,"Q"
+:PlugUpdate
+|2,0,1600071924,,"PlugUpdate"
+:messages
+|2,0,1600071684,,"messages"
+:w
+|2,0,1600071679,,"w"
+:echom g:animal_name . 'is an animal'
+|2,0,1600071606,,"echom g:animal_name . 'is an animal'"
+:echonm g:animal_name . 'is an animal'
+|2,0,1600071599,,"echonm g:animal_name . 'is an animal'"
+:term
+|2,0,1600064095,,"term"
+:python.setInterpreter
+|2,0,1599749784,,"python.setInterpreter"
+:CocInstall coc-python
+|2,0,1599749697,,"CocInstall coc-python"
+:CocInfo
+|2,0,1599749593,,"CocInfo"
+:h coc-list
+|2,0,1599749322,,"h coc-list"
+::q
+|2,0,1599460908,,":q"
+:set nopaste
+|2,0,1599200748,,"set nopaste"
+:set paste
+|2,0,1599200737,,"set paste"
+:wq
+|2,0,1599190147,,"wq"
+:argdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#ge|update
+|2,0,1599190129,,"argdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#ge|update"
+:argsdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#ge|update
+|2,0,1599190115,,"argsdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#ge|update"
+:argsdo :
+|2,0,1599190108,,"argsdo :"
+:argsdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#g|update
+|2,0,1599190059,,"argsdo %s#Share/gpu-server/data/game/729_dky#temp_space/pic#g|update"
+:args
+|2,0,1599189930,,"args"
+:%s#/Share/gpu-server/data/game/729_dky#/temp_space/pic/#g
+|2,0,1599189918,,"%s#/Share/gpu-server/data/game/729_dky#/temp_space/pic/#g"
+:sort -n
+|2,0,1599128274,,"sort -n"
+:argdo sort -n | update
+|2,0,1599128259,,"argdo sort -n | update"
+:argdo %s/xml/jpg/ge | update
+|2,0,1599128193,,"argdo %s/xml/jpg/ge | update"
+:argdo %s/xml/jpg/ge|update
+|2,0,1599128111,,"argdo %s/xml/jpg/ge|update"
+:argdo %s/xml/jpg/ge|wpdate
+|2,0,1599128104,,"argdo %s/xml/jpg/ge|wpdate"
+:argdo %s/xml/jpg/g|w
+|2,0,1599128024,,"argdo %s/xml/jpg/g|w"
+:argdo s/xml/jpg/g
+|2,0,1599128006,,"argdo s/xml/jpg/g"
+:args ./*.txt
+|2,0,1599127982,,"args ./*.txt"
+:nmap
+|2,0,1599122516,,"nmap"
+:next
+|2,0,1599122325,,"next"
+:arglocal
+|2,0,1599122125,,"arglocal"
+:ls!
+|2,0,1599122085,,"ls!"
+:ls
+|2,0,1599122051,,"ls"
+:PlugInstall
+|2,0,1599035322,,"PlugInstall"
+:1
+|2,0,1599033200,,"1"
+:tabnew
+|2,0,1598435461,,"tabnew"
+:wq!
+|2,0,1598350616,,"wq!"
+:r !realpath ./answer/
+|2,0,1598328881,,"r !realpath ./answer/"
+:r !realpath answer/
+|2,0,1598327284,,"r !realpath answer/"
+:qq
+|2,0,1597907712,,"qq"
+:set nu
+|2,0,1597902496,,"set nu"
+:%s///g
+|2,0,1596693145,,"%s///g"
+:set  ff=unix
+|2,0,1596693018,,"set  ff=unix"
+:r !ls
+|2,0,1596623224,,"r !ls"
+:NERDTree
+|2,0,1596417461,,"NERDTree"
+
+# 查找字符串 历史记录 (从新到旧)：
+?/md5sum
+|2,1,1599741599,47,"md5sum"
+?/1004
+|2,1,1599190575,47,"1004"
+? Share/gpu-server/data/game/729_dky
+|2,1,1599190130,,"Share/gpu-server/data/game/729_dky"
+? /Share/gpu-server/data/game/729_dky
+|2,1,1599189918,,"/Share/gpu-server/data/game/729_dky"
+? xml
+|2,1,1599128194,,"xml"
+?/u$/uu/      # ui = u  # u 不小心按两下<F24><F25>
+|2,1,1598932688,47,"u$/uu/      # ui = u  # u 不小心按两下<F24><F25>"
+?/i$/ii/      # ii = i  # i 不小心按两下
+|2,1,1598932684,47,"i$/ii/      # ii = i  # i 不小心按两下"
+?/tie$/tei/    # tei = tie
+|2,1,1598932683,47,"tie$/tei/    # tei = tie"
+?/iu$/iou/    # iou = ui
+|2,1,1598932682,47,"iu$/iou/    # iou = ui"
+?/ui$/uei/    # uei = ui
+|2,1,1598932681,47,"ui$/uei/    # uei = ui"
+?/un$/uen/    # uen = un
+|2,1,1598932681,47,"un$/uen/    # uen = un"
+?/([aeiou])ng$/$1gn/   # gn = ng
+|2,1,1598932680,47,"([aeiou])ng$/$1gn/   # gn = ng"
+?/([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang
+|2,1,1598932678,47,"([iu])a(o|ng?)$/a$1$2/   # aio = iao; aing = iang; aung = uang"
+?/ao$/oa/       # oa = ao
+|2,1,1598932678,47,"ao$/oa/       # oa = ao"
+?/hotkeys
+|2,1,1598514462,47,"hotkeys"
+?/MaxStartups
+|2,1,1598350579,47,"MaxStartups"
+?/'iscrowd': 1
+|2,1,1597910642,47,"'iscrowd': 1"
+?/iscrowd
+|2,1,1597910628,47,"iscrowd"
+?/is_crowed
+|2,1,1597910595,47,"is_crowed"
+?/categories
+|2,1,1597907779,47,"categories"
+? \<397133\>
+|2,1,1597906819,,"\\<397133\\>"
+? \<289343\>
+|2,1,1597903555,,"\\<289343\\>"
+? \<1768\>
+|2,1,1597903225,,"\\<1768\\>"
+?/area
+|2,1,1597902592,47,"area"
+?/test_dataloader
+|2,1,1596694488,47,"test_dataloader"
+? 
+|2,1,1596693145,,""
+? \<opt\>
+|2,1,1596689635,,"\\<opt\\>"
+?/code
+|2,1,1596173985,47,"code"
+? \<all_dirs\>
+|2,1,1596163733,,"\\<all_dirs\\>"
+?/Dlg
+|2,1,1595584909,47,"Dlg"
+?/MS
+|2,1,1595584896,47,"MS"
+?/MS SH
+|2,1,1595584893,47,"MS SH"
+?/WINE_CMD=
+|2,1,1595582082,47,"WINE_CMD="
+? \<writeCache\>
+|2,1,1594869609,,"\\<writeCache\\>"
+? \<set_trace\>
+|2,1,1594687654,,"\\<set_trace\\>"
+? \d\+$
+|2,1,1591289613,,"\\d\\+$"
+? \d+$
+|2,1,1591289599,,"\\d+$"
+? \d\+s
+|2,1,1591270021,,"\\d\\+s"
+? \$\d\+
+|2,1,1591269923,,"\\$\\d\\+"
+? $(\d\+)
+|2,1,1591269842,,"$(\\d\\+)"
+? $\d\+
+|2,1,1591269824,,"$\\d\\+"
+? (?!\d\+)
+|2,1,1591269753,,"(?!\\d\\+)"
+? \t\(\d\+\)
+|2,1,1591269411,,"\\t\\(\\d\\+\\)"
+? \t\d\+
+|2,1,1591269325,,"\\t\\d\\+"
+? \d\+
+|2,1,1591269284,,"\\d\\+"
+?/libdarknet.so
+|2,1,1591154039,47,"libdarknet.so"
+?/libdarknet.sp
+|2,1,1591154035,47,"libdarknet.sp"
+?/img_list
+|2,1,1589946452,47,"img_list"
+? \<images\>
+|2,1,1589879647,,"\\<images\\>"
+?/image
+|2,1,1589879644,47,"image"
+
+# 表达式 历史记录 (从新到旧)：
+
+# 输入行 历史记录 (从新到旧)：
+@/home/chiebotgpuhq/MyCode/study/vim_study
+|2,3,1600072243,,"/home/chiebotgpuhq/MyCode/study/vim_study"
+@y
+|2,3,1577347066,,"y"
+
+# Debug Line 历史记录 (从新到旧)：
+
+# 寄存器:
+"0	CHAR	0
+	diagnostics	diagnostics of current workspace
+	folders	list of current workspace folders
+	location	show locations saved by g:coc_jump_locations variable
+	output	output channels of coc.nvim
+	sources	registered completion sources
+	symbols	search workspace symbols
+|3,0,0,0,6,0,1600075486,"diagnostics	diagnostics of current workspace","folders	list of current workspace folders","location	show locations saved by g:coc_jump_locations variable","output	output channels of coc.nvim","sources	registered completion sources","symbols	search workspace symbols"
+""1	LINE	0
+	!.vimrc
+|3,1,1,1,1,0,1600075498,"!.vimrc"
+"2	LINE	0
+	
+|3,0,2,1,1,0,1600072238,""
+"3	LINE	0
+	diagnostics	diagnostics of current workspace
+	folders	list of current workspace folders
+	location	show locations saved by g:coc_jump_locations variable
+	output	output channels of coc.nvim
+	sources	registered completion sources
+	symbols	search workspace symbols
+|3,0,3,1,6,0,1600072234,"diagnostics	diagnostics of current workspace","folders	list of current workspace folders","location	show locations saved by g:coc_jump_locations variable","output	output channels of coc.nvim","sources	registered completion sources","symbols	search workspace symbols"
+"4	LINE	0
+	symbols	search workspace symbols
+|3,0,4,1,1,0,1600072233,"symbols	search workspace symbols"
+"5	LINE	0
+	Press ? on normal mode to get help.
+|3,0,5,1,1,0,1600072233,"Press ? on normal mode to get help."
+"6	LINE	0
+	Press ? on normal mode to get help.
+|3,0,6,1,1,0,1600072233,"Press ? on normal mode to get help."
+"7	LINE	0
+	Press ? on normal mode to get help.
+|3,0,7,1,1,0,1600072232,"Press ? on normal mode to get help."
+"8	LINE	0
+	Press ? on normal mode to get help.
+|3,0,8,1,1,0,1600072232,"Press ? on normal mode to get help."
+"9	LINE	0
+	Press ? on normal mode to get help.
+|3,0,9,1,1,0,1600072232,"Press ? on normal mode to get help."
+"a@	CHAR	0
+	$F r	j
+|3,2,10,0,1,0,1591270388,"$F r	j"
+"i	CHAR	0
+	
+|3,0,18,0,1,0,1577324723,""
+"q	CHAR	0
+	
+|3,0,26,0,1,0,1599749612,""
+"z	CHAR	0
+	ZZ��a
+|3,0,35,0,1,0,1574142308,"ZZ��a"
+"-	CHAR	0
+	pick 
+|3,0,36,0,1,0,1599202964,"pick "
+
+# 文件标记:
+'0  2  0  ~/.gitignore
+|4,48,2,0,1600075500,"~/.gitignore"
+'1  2  0  ~/MyCode/study/vim_study/script.vim
+|4,49,2,0,1600074708,"~/MyCode/study/vim_study/script.vim"
+'2  1  0  ~/.vim/coc-settings.json
+|4,50,1,0,1600071999,"~/.vim/coc-settings.json"
+'3  4  0  ~/MyCode/study/vim_study/script.vim
+|4,51,4,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+'4  4  0  ~/MyCode/study/vim_study/script.vim
+|4,52,4,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+'5  3  0  ~/MyCode/study/vim_study/script.vim
+|4,53,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+'6  3  0  ~/MyCode/study/vim_study/script.vim
+|4,54,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+'7  1  0  ~/MyCode/study/vim_study/test.txt
+|4,55,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+'8  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,56,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+'9  1  0  ~/Share/gpu-server/data/game/wp_in_2019_md5.txt
+|4,57,1,0,1600067113,"~/Share/gpu-server/data/game/wp_in_2019_md5.txt"
+
+# 跳转列表 (从新到旧):
+-'  2  0  ~/.gitignore
+|4,39,2,0,1600075500,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1600075486,"~/.gitignore"
+-'  2  0  ~/MyCode/study/vim_study/script.vim
+|4,39,2,0,1600074708,"~/MyCode/study/vim_study/script.vim"
+-'  2  0  ~/MyCode/study/vim_study/script.vim
+|4,39,2,0,1600074708,"~/MyCode/study/vim_study/script.vim"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071999,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071999,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071999,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071999,"~/.vim/coc-settings.json"
+-'  1  0  ~/MyCode/study/vim_study/script.vim
+|4,39,1,0,1600071977,"~/MyCode/study/vim_study/script.vim"
+-'  1  0  ~/MyCode/study/vim_study/script.vim
+|4,39,1,0,1600071977,"~/MyCode/study/vim_study/script.vim"
+-'  4  0  ~/MyCode/study/vim_study/script.vim
+|4,39,4,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  3  0  ~/MyCode/study/vim_study/script.vim
+|4,39,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  3  0  ~/MyCode/study/vim_study/script.vim
+|4,39,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  4  0  ~/MyCode/study/vim_study/script.vim
+|4,39,4,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  3  0  ~/MyCode/study/vim_study/script.vim
+|4,39,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  3  0  ~/MyCode/study/vim_study/script.vim
+|4,39,3,0,1600071970,"~/MyCode/study/vim_study/script.vim"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071969,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071969,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071969,"~/.vim/coc-settings.json"
+-'  1  0  ~/.vim/coc-settings.json
+|4,39,1,0,1600071969,"~/.vim/coc-settings.json"
+-'  1  0  ~/MyCode/study/vim_study/script.vim
+|4,39,1,0,1600071725,"~/MyCode/study/vim_study/script.vim"
+-'  1  0  ~/MyCode/study/vim_study/script.vim
+|4,39,1,0,1600071725,"~/MyCode/study/vim_study/script.vim"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  1  0  ~/MyCode/study/vim_study/test.txt
+|4,39,1,0,1600071715,"~/MyCode/study/vim_study/test.txt"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+-'  25  0  ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+|4,39,25,0,1600067542,"~/Share/gpu-server/data/game/get_all_image_uniq_list.py"
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/.gitignore
+	*	1600075500	0
+	"	2	0
+	^	9	44
+	.	2	0
+	+	9	43
+	+	2	0
+
+> ~/MyCode/study/vim_study/script.vim
+	*	1600074704	0
+	"	2	0
+	^	1	0
+	.	1	0
+	+	2	19
+	+	4	34
+	+	6	13
+	+	8	0
+	+	4	6
+	+	6	5
+	+	4	4
+	+	1	0
+
+> ~/.vim/coc-settings.json
+	*	1600071997	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/MyCode/study/vim_study/test.txt
+	*	1600071684	0
+	"	1	0
+
+> ~/Share/gpu-server/data/game/get_all_image_uniq_list.py
+	*	1600067540	0
+	"	25	0
+
+> ~/Share/gpu-server/data/game/wp_in_2019_md5.txt
+	*	1600067111	0
+	"	1	0
+
+> ~/Share/gpu-server/data/game/qx0001_in_2019_md5.txt
+	*	1600066825	0
+	"	1	0
+
+> ~/MyCode/python/distinguish/readme.md
+	*	1600048075	0
+	"	100	3
+	^	100	4
+	.	100	3
+	+	99	0
+	+	100	3
+
+> ~/MyCode/python/distinguish/test.py
+	*	1599835724	0
+	"	16	0
+	^	16	0
+	.	16	0
+	+	16	0
+
+> ~/.ssh/id_rsa.pub
+	*	1599835256	0
+	"	1	0
+	^	1	403
+	.	1	0
+	+	1	400
+	+	1	402
+	+	1	0
+
+> ~/MyCode/python/my_tools/show_image_shape.py
+	*	1599750001	0
+	"	26	16
+	^	48	17
+	.	48	16
+	+	40	7
+	+	41	7
+	+	42	11
+	+	43	20
+	+	44	15
+	+	45	20
+	+	46	9
+	+	47	23
+	+	47	26
+	+	48	16
+
+> ~/.vimrc
+	*	1599749556	0
+	"	1	60
+	^	1	61
+	.	154	58
+	+	177	46
+	+	176	42
+	+	154	58
+
+> ~/.vim/plugged/coc.nvim/doc/coc.cnx
+	*	1599749335	0
+	"	1321	0
+
+> ~/MyCode/python/distinguish/tools/utils.py
+	*	1599741807	0
+	"	113	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/good_img.txt
+	*	1599460901	0
+	"	353	0
+
+> ~/MyConfig/bashrc_func/ps1.sh
+	*	1599278867	0
+	"	1	0
+
+> ~/Share/gpu-server/data/game/729_dky/from_uncheck_B.txt
+	*	1599207862	0
+	"	1	1
+
+> ~/MyCode/study/paper/PaperReading/.git/COMMIT_EDITMSG
+	*	1599207246	0
+	"	1	20
+	^	1	23
+	.	2	0
+	+	1	2
+	+	1	23
+	+	2	0
+
+> ~/.git/COMMIT_EDITMSG
+	*	1599202983	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	4	0
+	+	7	0
+	+	10	0
+	+	1	0
+
+> ~/.git/rebase-merge/git-rebase-todo
+	*	1599202976	0
+	"	2	1
+	^	2	2
+	.	2	1
+	+	2	0
+	+	3	0
+	+	2	0
+	+	3	0
+	+	4	1
+	+	5	0
+	+	2	1
+
+> ~/.config/ibus/rime/default.custom.yaml
+	*	1599200791	0
+	"	14	36
+	^	14	37
+	.	14	36
+	+	12	33
+	+	14	62
+	+	12	1
+	+	13	34
+	+	14	36
+
+> ~/temp_space/result/yw_nc_FP.txt
+	*	1599190609	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/kgg_ybh_FN.txt
+	*	1599190383	0
+	"	2	33
+	^	1	35
+	.	2	33
+	+	1	0
+	+	2	0
+	+	1	34
+	+	2	33
+
+> ~/temp_space/result/ywzt_yfyc_FP.txt
+	*	1599190143	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/xmbhyc_FP.txt
+	*	1599190130	0
+	"	220	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/yw_gkxfw_FN.txt
+	*	1599190130	0
+	"	76	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/yw_gkxfw_FP.txt
+	*	1599190130	0
+	"	420	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/yw_nc_FN.txt
+	*	1599190130	0
+	"	21	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/ywzt_yfyc_FN.txt
+	*	1599190130	0
+	"	37	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/kgg_ybh_FP.txt
+	*	1599190129	0
+	"	179	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/sly_dmyw_FN.txt
+	*	1599190129	0
+	"	97	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/sly_dmyw_FP.txt
+	*	1599190129	0
+	"	656	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/wcaqm_FN.txt
+	*	1599190129	0
+	"	20	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/wcaqm_FP.txt
+	*	1599190129	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/wcgz_FN.txt
+	*	1599190129	0
+	"	36	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/wcgz_FP.txt
+	*	1599190129	0
+	"	52	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/result/xmbhyc_FN.txt
+	*	1599190129	0
+	"	55	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/kgg_ybh_FP.txt
+	*	1599122330	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/kgg_ybh_FN.txt
+	*	1599122320	0
+	"	29	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/ywzt_yfyc_FP.txt
+	*	1599114960	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/ywzt_yfyc_FN.txt
+	*	1599114954	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/yw_nc_FP.txt
+	*	1599114947	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/yw_nc_FN.txt
+	*	1599114939	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/yw_gkxfw_FP.txt
+	*	1599114932	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/yw_gkxfw_FN.txt
+	*	1599114925	0
+	"	1	0
+	.	1	0
+	+	1	130
+	+	1	196
+	+	1	262
+	+	1	328
+	+	1	394
+	+	1	0
+
+> ~/temp_space/xmbhyc_FP.txt
+	*	1599114906	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/xmbhyc_FN.txt
+	*	1599114898	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/wcgz_FP.txt
+	*	1599114890	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/wcgz_FN.txt
+	*	1599114874	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/wcaqm_FP.txt
+	*	1599114863	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/wcaqm_FN.txt
+	*	1599114855	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/sly_dmyw_FP.txt
+	*	1599114847	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/temp_space/sly_dmyw_FN.txt
+	*	1599114839	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Share/gpu-server/data/game/729_dky/B/9.xml
+	*	1599104846	0
+	"	1	0
+
+> ~/MyTools/TMSU/Makefile
+	*	1599101815	0
+	"	1	0
+
+> ~/MyConfig/navi_cheats/other.cheat
+	*	1599100930	0
+	"	8	35
+	^	8	36
+	.	8	35
+	+	6	54
+	+	8	35
+
+> ~/.profile
+	*	1599098124	0
+	"	29	0
+	^	29	0
+	.	28	35
+	+	28	0
+	+	29	0
+	+	28	35
+
+> ~/Share/gpu-server/project_workspace/readme.md
+	*	1599095742	0
+	"	1	0
+
+> ~/MyTools/install.sh
+	*	1599036265	0
+	"	394	0
+
+> ~/snap/lepton/x1/.leptonrc
+	*	1599034713	0
+	"	2	18
+	^	2	19
+	.	2	18
+	+	1	1
+	+	45	0
+	+	2	17
+	+	22	41
+	+	21	18
+	+	22	25
+	+	21	22
+	+	22	42
+	+	2	18
+	e	1	0
+
+> ~/.tmux.conf.local
+	*	1599033200	0
+	"	1	0
+
+> ~/MyTools/obsidian.desktop
+	*	1598940093	0
+	"	1	13
+	^	1	14
+	.	1	13
+	+	6	0
+	+	2	12
+	+	3	55
+	+	4	44
+	+	5	0
+	+	1	13
+
+> ~/.bashrc
+	*	1598933919	0
+	"	1	0
+	^	212	68
+	.	212	67
+	+	195	0
+	+	195	109
+	+	195	0
+	+	195	12
+	+	195	0
+	+	195	69
+	+	195	52
+	+	143	101
+	+	142	40
+	+	143	41
+	+	143	66
+	+	143	0
+	+	143	64
+	+	146	94
+	+	144	0
+	+	151	125
+	+	145	7
+	+	146	1
+	+	144	0
+	+	150	47
+	+	195	0
+	+	119	0
+	+	121	0
+	+	122	0
+	+	121	0
+	+	122	0
+	+	121	5
+	+	61	0
+	+	122	0
+	+	123	0
+	+	122	41
+	+	123	6
+	+	124	22
+	+	122	0
+	+	123	5
+	+	124	19
+	+	125	0
+	+	123	3
+	+	124	0
+	+	123	0
+	+	126	0
+	+	123	0
+	+	124	0
+	+	125	0
+	+	123	3
+	+	124	21
+	+	123	0
+	+	122	17
+	+	123	22
+	+	124	8
+	+	122	20
+	+	124	21
+	+	146	0
+	+	197	108
+	+	199	55
+	+	199	35
+	+	198	0
+	+	200	21
+	+	201	40
+	+	208	36
+	+	196	6
+	+	192	0
+	+	208	55
+	+	208	44
+	+	208	38
+	+	211	0
+	+	99	0
+	+	211	0
+	+	215	9
+	+	217	44
+	+	217	0
+	+	179	23
+	+	180	9
+	+	217	50
+	+	217	55
+	+	217	0
+	+	217	13
+	+	217	0
+	+	218	0
+	+	215	57
+	+	217	26
+	+	217	23
+	+	216	24
+	+	217	25
+	+	218	0
+	+	209	32
+	+	210	0
+	+	202	29
+	+	203	68
+	+	205	14
+	+	206	52
+	+	207	45
+	+	204	26
+	+	123	0
+	+	122	0
+	+	217	0
+	+	218	0
+	+	212	67
+	+	213	67
+	+	212	67
+	j	122	1
+
+> ~/.config/ibus/rime/luna_pinyin.custom.yaml
+	*	1598932749	0
+	"	109	4
+	^	117	4
+	.	109	4
+	+	59	65
+	+	59	25
+	+	59	0
+	+	59	25
+	+	59	0
+	+	59	35
+	+	59	0
+	+	59	22
+	+	59	0
+	+	59	18
+	+	59	0
+	+	59	12
+	+	59	0
+	+	59	1
+	+	59	3
+	+	128	0
+	+	117	46
+	+	125	54
+	+	117	3
+	+	105	4
+	+	106	4
+	+	107	4
+	+	108	4
+	+	109	4
+
+> ~/MyCode/python/check_img/.git/TAG_EDITMSG
+	*	1598525981	0
+	"	1	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/result/xyy/unaccurate_box
+	*	1598519330	0
+	"	1	0
+
+> ~/.config/ibus/rime/cangjie5.schema.yaml
+	*	1598517101	0
+	"	19	11
+	.	19	11
+	+	19	11
+
+> ~/.config/ibus/rime/cangjie5_express.schema.yaml
+	*	1598517094	0
+	"	24	11
+	.	24	11
+	+	24	11
+
+> ~/.config/ibus/rime/luna_pinyin.schema.yaml
+	*	1598517086	0
+	"	78	0
+
+> ~/.config/ibus/rime/luna_pinyin_fluency.schema.yaml
+	*	1598517074	0
+	"	18	11
+	.	18	11
+	+	18	11
+
+> ~/.config/ibus/rime/luna_pinyin_simp.schema.yaml
+	*	1598517064	0
+	"	15	11
+	.	15	11
+	+	15	11
+
+> ~/.config/ibus/rime/luna_pinyin_tw.schema.yaml
+	*	1598517057	0
+	"	15	11
+	.	15	11
+	+	15	11
+
+> ~/.config/ibus/rime/luna_quanpin.schema.yaml
+	*	1598517051	0
+	"	18	11
+	.	18	11
+	+	18	11
+
+> ~/.config/ibus/rime/stroke.schema.yaml
+	*	1598517046	0
+	"	20	11
+	.	20	11
+	+	20	11
+
+> ~/.config/ibus/rime/terra_pinyin.schema.yaml
+	*	1598517035	0
+	"	18	11
+	.	18	11
+	+	18	11
+
+> ~/.config/ibus/rime/bopomofo_tw.schema.yaml
+	*	1598517011	0
+	"	21	11
+	.	21	11
+	+	21	11
+
+> ~/.config/ibus/rime/bopomofo_express.schema.yaml
+	*	1598516998	0
+	"	23	11
+	.	23	11
+	+	23	11
+
+> ~/.config/ibus/rime/bopomofo.schema.yaml
+	*	1598516988	0
+	"	23	11
+	.	23	11
+	+	23	11
+
+> ~/.config/ibus/rime/default.yaml
+	*	1598514494	0
+	"	35	4
+	.	35	0
+	+	35	0
+
+> ~/.config/clash/config.yaml
+	*	1598405606	0
+	"	1	0
+	^	14	16
+	.	14	15
+	+	14	15
+
+> /etc/ssh/sshd_config
+	*	1598350619	0
+	"	103	12
+	^	103	13
+	.	103	12
+	+	103	12
+
+> /etc/hosts.allow
+	*	1598350291	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1598349040	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/extract_answer/2.txt
+	*	1598341723	0
+	"	1	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/3.txt
+	*	1598340782	0
+	"	1	0
+	^	1	84
+	.	1	0
+	+	2	0
+	+	1	0
+	+	1	83
+	+	2	0
+	+	85	0
+	+	1	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/2.txt
+	*	1598340769	0
+	"	1	0
+	^	2	84
+	.	1	0
+	+	2	0
+	+	1	0
+	+	1	83
+	+	26	0
+	+	2	84
+	+	3	0
+	+	1	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/4.txt
+	*	1598329188	0
+	"	1	0
+	^	1	84
+	.	2	0
+	+	2	0
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/answer1/a2/fae9b8c418dacdf5eb83597a94e5505a.xml
+	*	1598324794	0
+	"	11	14
+	^	11	12
+	.	11	11
+	+	11	11
+
+> ~/Share/gpu-server/data/game/toDianKeYuan/only_about_person/answer1/answer/fbf7bfcda001ff28ab7b5856c3a6db69.xml
+	*	1598324429	0
+	"	11	13
+	^	11	11
+	.	11	10
+	+	11	10
+
+> ~/MyCode/python/check_img/test/3/2/3.txt
+	*	1598241722	0
+	"	4	0
+	.	4	0
+	+	4	0
+
+> ~/MyCode/python/my_tools/log.txt
+	*	1597922320	0
+	"	93	48
+
+> ~/MyCode/python/cocoapi/PythonAPI/anns.json
+	*	1597913311	0
+	"	1989343	48
+
+> ~/MyCode/python/cocoapi/anns.txt
+	*	1597903555	0
+	"	47125	30
+	^	2	16
+	.	143	0
+	+	144	0
+	+	4	17
+	+	10	18
+	+	143	5
+	+	3	5
+	+	2	16
+	+	143	0
+	m	104178	19
+
+> ~/MyCode/dataset/coco/annotations/instances_val2017.json
+	*	1597902846	0
+	"	1	0
+
+> ~/MyCode/python/coco_siam_generator/readme.md
+	*	1597895751	0
+	"	1	0
+
+> ~/MyCode/python/coco_siam_generator/cocotoolstest.py
+	*	1597895730	0
+	"	1	0
+
+> ~/MyCode/python/my_tools/utils/xml_tools.py
+	*	1597895676	0
+	"	180	0
+
+> ~/.vscode/extensions/luqimin.tiny-light-0.7.2/README.md
+	*	1597817310	0
+	"	1	0
+
+> ~/.vscode/extensions/NERD_tree_1
+	*	1597817307	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> ~/.config/Code/User/sync/globalState/20200814T115642.json
+	*	1597814880	0
+	"	1	0

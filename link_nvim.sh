@@ -1,0 +1,1 @@
+ln -s $HOME/vim_config/nvim $HOME/.config/nvim
