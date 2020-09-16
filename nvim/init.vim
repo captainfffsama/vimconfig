@@ -24,6 +24,7 @@ else
 endif
 " vim中文文档
 if has('nvim')
+	Plug 'yianwillis/vimcdoc'
 else
 	Plug 'yianwillis/vimcdoc'
 endif
@@ -205,7 +206,7 @@ filetype plugin indent on
 " let mapleader = "\<space>"
 let mapleader = ','
 " 快速打开vimrc 
-nnoremap <leader>ev :vsplit $MYVIMRC<cr> 
+nnoremap <leader>ev :o $MYVIMRC<cr> 
 " 重载vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " 在vim中去除tmux开关
