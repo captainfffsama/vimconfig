@@ -55,16 +55,6 @@ let g:lightline = {
     \ 'colorscheme': 'wombat',
     \ }
 
-"" PowerLine设置
-"" powerline的安装路径，可能需要自行调整
-"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/ 
-"" 设置vim状态栏数量为2，用于显示powerline的内容
-"set laststatus=2  
-"" 始终显示窗口上头的tabline
-"set showtabline=2 
-"" Hide the default mode text (e.g. -- INSERT -- below the statusline)
-"set noshowmode    
-"set t_Co=256
 
 " >> markdown-preview 设置 <<----------------------------------------------
 " set to 1, nvim will open the preview window after entering the markdown buffer
@@ -205,7 +195,7 @@ filetype plugin indent on
 " let mapleader = "\<space>"
 let mapleader = ','
 " 快速打开vimrc 
-nnoremap <leader>ev :vsplit $MYVIMRC<cr> 
+nnoremap <leader>ev :e $MYVIMRC<cr> 
 " 重载vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " 在vim中去除tmux开关
