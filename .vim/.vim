@@ -1,1 +1,0 @@
-/home/chiebotgpuhq/vim_config/.vim
