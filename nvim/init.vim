@@ -1,7 +1,9 @@
 " >>> 插件管理 <<<---------------------------------------------------
 if has('nvim')
+	let g:root_dir=expand('~/.config/nvim/')
 	let g:plug_dir=expand('~/.config/nvim/plugged')
 else
+	let g:root_dir=expand('~/.vim/')
 	let g:plug_dir=expand('~/.vim/plugged')
 endif
 " 使用vim-plug管理vim插件
@@ -203,8 +205,8 @@ autocmd BufWritePost $MYVIMRC source $MYVIMRC
 filetype plugin indent on
 
 " >>> 按键映射 <<<-----------------------------------------------------
-" let mapleader = "\<space>"
-let mapleader = ','
+let mapleader = "\<space>"
+" let mapleader = ','
 " 快速打开vimrc 
 nnoremap <leader>ev :o $MYVIMRC<cr> 
 " 重载vimrc
@@ -218,3 +220,5 @@ nnoremap <C-S> :w<CR>
 " 正确显示json高亮
 autocmd FileType json syntax match Comment +\/\/.\+$+
 " === 插件快捷键 ===
+" 离开vim时关闭coc
+autocmd VimLeavePre * if get(g:, 'coc_process_pid', 0) | call system('kill -9 '.g:coc_process_pid) | endif

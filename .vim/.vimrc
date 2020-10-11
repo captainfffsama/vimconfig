@@ -207,3 +207,5 @@ nnoremap <C-S> :w<CR>
 " 正确显示json高亮
 autocmd FileType json syntax match Comment +\/\/.\+$+
 " === 插件快捷键 ===
+" === 测试======
+
