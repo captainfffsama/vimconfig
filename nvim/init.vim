@@ -1,4 +1,4 @@
-" >>> 插件管理 <<<---------------------------------------------------
+" >>> 插件管理 <<<---------------------------------------------------{
 if has('nvim')
 	let g:root_dir=expand('~/.config/nvim/')
 	let g:plug_dir=expand('~/.config/nvim/plugged')
@@ -26,9 +26,9 @@ else
 endif
 " vim中文文档
 if has('nvim')
-	Plug 'yianwillis/vimcdoc'
+	Plug 'yianwillis/vimcdoc', { 'do': ':help'}
 else
-	Plug 'yianwillis/vimcdoc'
+	Plug 'yianwillis/vimcdoc', { 'do': ':help'}
 endif
 " python缩进显示
 Plug 'Yggdroot/indentLine'
@@ -43,112 +43,11 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " 状态栏
 Plug 'itchyny/lightline.vim'
 call plug#end()
+
+" }
+
 " >>> 插件设置 <<<----------------------------------------------------
-" lightline设置
-if has('nvim')
-else
-	set laststatus=2
-	"export TERM=xterm-256color
-	if !has('gui_running')
-		set t_Co=256
-	endif
-	set noshowmode
-endif
-let g:lightline = {
-    \ 'colorscheme': 'wombat',
-    \ }
 
-"" PowerLine设置
-"" powerline的安装路径，可能需要自行调整
-"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/ 
-"" 设置vim状态栏数量为2，用于显示powerline的内容
-"set laststatus=2  
-"" 始终显示窗口上头的tabline
-"set showtabline=2 
-"" Hide the default mode text (e.g. -- INSERT -- below the statusline)
-"set noshowmode    
-"set t_Co=256
-
-" >> markdown-preview 设置 <<----------------------------------------------
-" set to 1, nvim will open the preview window after entering the markdown buffer
-" default: 0
-let g:mkdp_auto_start = 0
-
-" set to 1, the nvim will auto close current preview window when change
-" from markdown buffer to another buffer
-" default: 1
-let g:mkdp_auto_close = 1
-
-" set to 1, the vim will refresh markdown when save the buffer or
-" leave from insert mode, default 0 is auto refresh markdown as you edit or
-" move the cursor
-" default: 0
-let g:mkdp_refresh_slow = 0
-
-" set to 1, the MarkdownPreview command can be use for all files,
-" by default it can be use in markdown file
-" default: 0
-let g:mkdp_command_for_global = 0
-
-" set to 1, preview server available to others in your network
-" by default, the server listens on localhost (127.0.0.1)
-" default: 0
-let g:mkdp_open_to_the_world = 0
-
-" use custom IP to open preview page
-" useful when you work in remote vim and preview on local browser
-" more detail see: https://github.com/iamcco/markdown-preview.nvim/pull/9
-" default empty
-let g:mkdp_open_ip = ''
-
-" specify browser to open preview page
-" default: ''
-let g:mkdp_browser = ''
-
-" set to 1, echo preview page url in command line when open preview page
-" default is 0
-let g:mkdp_echo_preview_url = 0
-
-" a custom vim function name to open preview page
-" this function will receive url as param
-" default is empty
-let g:mkdp_browserfunc = ''
-
-" options for markdown render
-" mkit: markdown-it options for render
-" katex: katex options for math
-" uml: markdown-it-plantuml options
-" maid: mermaid options
-" disable_sync_scroll: if disable sync scroll, default 0
-" sync_scroll_type: 'middle', 'top' or 'relative', default value is 'middle'
-"   middle: mean the cursor position alway show at the middle of the preview page
-"   top: mean the vim top viewport alway show at the top of the preview page
-"   relative: mean the cursor position alway show at the relative positon of the preview page
-" hide_yaml_meta: if hide yaml metadata, default is 1
-" sequence_diagrams: js-sequence-diagrams options
-let g:mkdp_preview_options = {
-    \ 'mkit': {},
-    \ 'katex': {},
-    \ 'uml': {},
-    \ 'maid': {},
-    \ 'disable_sync_scroll': 0,
-    \ 'sync_scroll_type': 'middle',
-    \ 'hide_yaml_meta': 1,
-    \ 'sequence_diagrams': {}
-    \ }
-
-" use a custom markdown style must be absolute path
-let g:mkdp_markdown_css = ''
-
-" use a custom highlight style must absolute path
-let g:mkdp_highlight_css = '/home/chiebotgpuhq/.config/markdown-preview-styles/styles/highlight/monokai.css'
-
-" use a custom port to start server or random for empty
-let g:mkdp_port = '8299'
-
-" preview page title
-" ${name} will be replace with the file name
-let g:mkdp_page_title = '「${name}」'
 
 
 " >>> 功能设置 <<<-----------------------------------------------------
@@ -199,8 +98,6 @@ set foldmethod=indent
 set nofoldenable
 
 " >>> 性能设置 <<<------------------------------------------------------
-" 使vimrc配置立即生效
-autocmd BufWritePost $MYVIMRC source $MYVIMRC
 " 打开文件类型检测
 filetype plugin indent on
 
@@ -211,14 +108,20 @@ let mapleader = "\<space>"
 nnoremap <leader>ev :o $MYVIMRC<cr> 
 " 重载vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
-" 在vim中去除tmux开关
-autocmd VimEnter,VimLeave * silent !tmux set status off
 " === 功能映射 ===
 " 将ctrl+s映射为保存文件
 nnoremap <C-S> :w<CR>
 
-" 正确显示json高亮
-autocmd FileType json syntax match Comment +\/\/.\+$+
+" 加载各种设置
+for s:path in split(glob(g:root_dir . 'vimrc/*.vim'), "\n")
+	exec 'source' . s:path
+endfor
+
+for s:path in split(glob(g:root_dir . 'plug_cfg/*.vim'), "\n")
+	exec 'source' . s:path
+endfor
+" 加载各种插件配置
+
 " === 插件快捷键 ===
 " 离开vim时关闭coc
 autocmd VimLeavePre * if get(g:, 'coc_process_pid', 0) | call system('kill -9 '.g:coc_process_pid) | endif
